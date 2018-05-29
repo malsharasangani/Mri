@@ -1,0 +1,335 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-containter{
+    position: absolute;
+    padding-top: 15px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/*===== Navigation bar =====*/
+.navbar{
+    height: 80px;
+    margin: 0px auto;
+    width: 1200px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.navbar-default{
+    background: #FFFFFF;
+    color: aqua;
+    font-size: 14px;
+}
+
+.brand{
+    width: 150px;
+    float: left;
+    padding-left: 15px;
+    position: relative;
+}
+
+.brand img{
+    width: 145px;
+    height: 50px;
+    position: relative;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    display: block;
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+.nav li a:hover{
+    background-color: #39cbef;
+    color: black;
+}
+
+/*===== Main section =====*/
+.container{
+    margin: 0px auto;
+    width: 1200px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.mri-image-container{
+    width: 100%;
+    height: 750px;
+    margin-bottom: 10px;
+}
+
+.mri-image-container img{
+    width: 100%;
+    height: 650px;
+}
+
+.mri-image-info{
+    position: absolute;
+    margin-top: -10px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.mri-section{
+    text-align: justify;
+    padding: 25px;
+    color: #424242;
+}
+
+.bg-blue{
+    background-color: #39cbef;
+}
+
+.mri-list-service{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.mri-list-service img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0;
+    display: inline-block;
+}
+
+/*===== Footer section =====*/
+#footer-top-border{
+    border-top: 1px solid #39cbef;
+}
+
+.footer-section{
+    text-align: center;
+    width: 398px;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    float: left;
+}
+
+.mri-logo{
+    padding: 5px;
+    margin: 0;
+    position: relative;
+}
+
+.mri-logo img{
+    width: 240px;
+    height: 58px;
+    margin-top: 50px;
+}
+
+.footer-about-us{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    color: #4f4f4f;
+}
+
+.footer-mri-apoinment{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    color: #4f4f4f;
+}
+
+.mri-copyright{
+    padding: 10px;
+    position: relative;
+}
+
+.mri-copyright p{
+    text-align: center;
+}
+
+
+/*===== OurTeam section =====*/
+.team-body{
+    position: relative;
+    width: 530px;
+    display: inline-block;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #39cbef;
+}
+
+.team-body:nth-child(odd){
+    float: right;
+}
+
+.team-body img{
+    position: relative;
+    width: 285px;
+    height: 360px;
+    margin-left: 0px;
+}
+
+.team-footer{
+    position: relative;
+    float: right;
+    width: 225px;
+    height: 360px;
+    padding: 5px;
+    background-color: #39cbef;
+}
+
+.team-footer h3{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+}
+
+.team-footer p{
+    text-align: center;
+    font-style: italic;
+}
+
+.text-about-mri{
+    margin-right: 200px;
+    padding-left: 250px;
+    align-content: center;
+    font-family:serif;
+}
+
+
+
+
+/*=======Contact Us ========*/
+.appoinment-call{
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.appoinment-call h2{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.btn-primary{
+    background-color: #39cbef;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+.btn{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 550px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: #37b0ce;
+}
+
+.title{
+    text-align: center;
+    font-size: 38px;
+    color: #39cbef;
+}
+.mri-form-title{
+    text-align: center;
+    font-size: large;
+    font-style: normal;
+}
+
+.mri-form{
+    position: relative;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+.mri-form-group{
+    position: relative;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+
+.form-label{
+    font-size: 18px;
+    text-align: left;
+}
+
+.form-control{
+    padding: 10px;
+    width: 280px;
+    float: right;
+}
+
+footer{
+    margin-bottom: 0px !important;
+}
+
+/*=====Location =====*/
+
+.location-logo{
+
+    margin-left:150px;
+    left: 500px;
+}
+
+
+.location-logo1{
+    margin-top: 50px;
+    margin-left:150px;
+    left: 500px;
+}
+
+.location-logo2{
+
+    margin-left:400px;
+    left: 500px;
+    margin-top: -430px;
+}
+
+.location-logo3{
+
+    margin-left:400px;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.google-map{
+    margin-left: 700px;
+    margin-top: -500px;
+    margin-bottom: 100px;
+
+}
+
+.display{
+
+    display: inline;
+}
